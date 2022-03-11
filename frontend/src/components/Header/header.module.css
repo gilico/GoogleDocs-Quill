@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+nav h1{
+    color: aqua;;
+
+}
+.ul{
+    list-style-type: none;
+}
+
+.header .ul{
+    display: flex;
+    align-items: center;
+}
+.header .li{
+    margin-left: 20px;
+}
+.header .li a{
+    font-weight: 700;
+    font-size: 0.8em;
+    display: block;
+    padding: 10px 16px;
+    letter-spacing: 2px;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    h1{
+        font-size: 18px;
+    }
+    
+    nav li a{
+        font-size: 10px;
+    }
+
+    
+}

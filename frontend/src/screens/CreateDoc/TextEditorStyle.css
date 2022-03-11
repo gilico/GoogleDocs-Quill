@@ -1,0 +1,114 @@
+
+.quill-parent{
+    border-radius: 5px;
+    width: 75%;
+    margin-right: 20px;
+}
+.quill{
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 3px rgb(0, 157, 255);
+    
+}
+
+.ql-toolbar.ql-snow .ql-formats {
+    margin-top: 5px;
+}
+.ql-toolbar.ql-snow span button{
+    margin-right: 5px;
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+    height: 200px;
+}   
+
+.quill > div{
+    margin-top: 0 !important;
+}
+
+.create-form{
+    margin-top: 20px;
+}
+.main-content{
+    display: flex;
+}
+.collabs-cont{
+    width: 18%;
+}
+.collabs{
+    height: 75%;
+    box-shadow: 0 0 3px rgb(0, 157, 255);
+    border-radius: 3px;
+    padding-top: 3px;
+}
+.emails {
+    background-color: aqua;
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 4px black;
+}
+.collabs div p {
+    font-weight: bold;
+    font-size: 12px;
+}
+input{
+    height: 20px;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid blue;
+    width: 250px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(0, 157, 255);
+    box-shadow: 0 0 3px rgb(0, 229, 255);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+span{
+    color: rgb(0, 168, 240);
+    font-weight: bold;
+}
+
+.btn-cont{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-cont button{
+    background-color: rgb(0, 208, 255); 
+    height: 30px;
+    width: 100px;
+    box-shadow: 0 0 5px black;
+    margin-bottom: 15px;
+}
+.btn-cont .reset{
+    background-color: red;
+}
+.new-col-btn{
+    margin-left: 20px;
+    height: 23px;
+    background-color: rgb(250, 249, 215);
+    box-shadow: 0 0 3px rgb(0, 242, 255);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 975px) {
+    input{
+        width: 150px
+    }
+    .collabs div p {
+        font-weight: bold;
+        font-size: 8px;
+    }
+}

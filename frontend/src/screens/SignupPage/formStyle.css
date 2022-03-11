@@ -1,0 +1,108 @@
+*{
+    text-align: left;
+}
+.form-sign-log form{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 1px 2px 3px  rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background: white;
+}
+.form-sign-log #inputs-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-sign-log form h2{
+    text-shadow:0px 0px 2px #028f00;
+    font-size: 2.4em;
+    font-weight: 900;
+    margin-bottom: 40px;
+    width: 75%;
+}
+.form-sign-log form.login{
+    width: 50%;
+}
+.form-sign-log form.login h2{
+    margin: 0 auto;
+}
+.form-sign-log form.login .input-cont{
+    width: 70%;
+    margin: 0 auto;
+}
+.form-sign-log form.login input{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-sign-log form.login button{
+    /* margin:unset; */
+    margin-top: 25px;
+}
+
+.form-sign-log .form-part{
+    width: 45%; 
+}
+
+.form-sign-log input{
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    width: 70%;
+}
+.form-sign-log .btn{
+    border-radius: 36px;
+    background: #444;
+    color: #03c700;
+}
+.form-sign-log label{
+    display: block;
+    margin: 20px 0 10px;
+}
+.form-sign-log button{
+    margin-top: 40px ;
+    border-radius: 36px;
+    background: #028f00;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1em;
+    display: block;
+    padding: 10px 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px #48aeba;
+    color: black;
+}
+
+.error-cont{
+    background-color: red;
+    margin-top: 10px;
+    width: fit-content;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    height: fit-content;
+}
+
+.login .error-cont{
+    margin-left: 13%;
+}
+
+.spin-cont{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+
+.form-footer button{
+   margin: 15px auto;
+}
+
+.form-footer{
+    text-align: center;
+    width: 87%;
+}
+
